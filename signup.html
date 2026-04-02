@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+
+  <style>
+    body {
+      background: linear-gradient(to right, #43cea2, #185a9d);
+      text-align: center;
+      color: white;
+      margin-top: 100px;
+      font-family: Arial;
+    }
+
+    input {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 8px;
+      border: none;
+    }
+
+    button {
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: none;
+      background: white;
+      color: #185a9d;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Signup Page ✨</h1>
+
+  <form action="/signup" method="POST">
+    <input type="text" name="username" placeholder="Create username"><br>
+    <input type="password" name="password" placeholder="Create password"><br>
+    <button type="submit">Signup</button>
+  </form>
+
+</body>
+</html>
